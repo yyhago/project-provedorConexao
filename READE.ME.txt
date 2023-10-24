@@ -1,0 +1,25 @@
+Bem-vindo à Aplicação de Notificação de Queda de Wi-Fi!
+
+Este projeto é uma aplicação que tem como objetivo avisar e notificar os usuários quando a conexão Wi-Fi do site cair. É uma iniciativa para testar e aprimorar minhas habilidades em JavaScript, JSON, APIs e outras tecnologias relacionadas ao desenvolvimento web.
+
+**Sobre o Projeto:**
+
+A Aplicação de Notificação de Queda de Wi-Fi foi criada com o propósito de monitorar a estabilidade da conexão Wi-Fi de um site em tempo real. A disponibilidade de uma conexão Wi-Fi confiável é crucial para garantir que os usuários tenham uma experiência ininterrupta. Este projeto visa oferecer uma solução que seja capaz de detectar e notificar os usuários quando ocorrer uma interrupção na conexão.
+
+**Tecnologias Utilizadas:**
+
+- **JavaScript**: A base deste projeto, utilizado para desenvolver as funcionalidades de monitoramento e notificação.
+- **JSON**: Usado para a estruturação de dados e manipulação de informações na aplicação.
+- **APIs**: Integramos várias APIs para coletar informações relevantes sobre a conexão Wi-Fi e automatizar notificações.
+
+**Objetivos:**
+
+Este projeto representa uma oportunidade de explorar e aplicar meus conhecimentos em desenvolvimento web, ao mesmo tempo em que desafia minhas habilidades técnicas em um contexto prático. Desenvolvendo a Aplicação de Notificação de Queda de Wi-Fi, estou comprometido em melhorar minhas competências e aprender de forma contínua.
+
+**Contato:**
+
+Caso você tenha dúvidas, sugestões ou gostaria de discutir este projeto ou qualquer outro tópico relacionado ao desenvolvimento web, fique à vontade para entrar em contato comigo. Estou sempre aberto a novas ideias e oportunidades de aprendizado colaborativo.
+
+Obrigado por explorar esta aplicação e por fazer parte da minha jornada de aprendizado contínuo.
+
+Atenciosamente, Dev Yhago Felipe

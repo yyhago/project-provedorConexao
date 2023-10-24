@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #323050;
+}
+
+
+.center {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+}
+
+.center h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+    margin: 0 0 25px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.center strong{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+
+
+
+.popup{
+    position: absolute;
+    left: 50%;
+    top: -25%;
+    visibility: hidden;
+    width: 500px;
+    border-radius: 5px;
+    padding: 13px 17px 20px;
+    background-color: white;
+    display: flex;
+    border-top: 3px solid red;
+    transform: translate(-50%);
+    box-shadow: 10px 10px 10px black;
+    transition: all 0.25s ease;
+
+}
+
+.popup.show{
+    top: 0;
+    visibility: visible;
+}
+
+.popup.online{
+    border-color: green;
+}
+
+
+.popup .icon i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    margin-right: 20px;
+    color: white;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    background: red;
+}
+
+.popup.online .icon i{
+    background: green;
+}
+
+.popup .titulo{
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.popup .descricao{
+    color: black;
+    margin: 3px 0 10px;
+    font-size: 1.2rem;
+}
+
+.popup .reconec{
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 0.95rem;
+    border-radius: 10px;
+    padding: 9px 15px;
+    cursor: pointer;
+    background: rgb(20, 126, 191);
+}
+
+.popup.online .reconec{
+    background: #bfbfbf;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 550px) {
+    .popup{
+        width: 100%;
+        padding: 10px 15px 17px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .center{
+        width: 100%;
+        max-width: 400px;
+        margin-left: 45px;
+        text-align: center;
+    }
+}
